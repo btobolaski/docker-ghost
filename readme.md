@@ -29,3 +29,7 @@ server {
     }
 }
 ```
+
+To use this, you can either clone this repo and build it yourself, `docker build -t <your name>/ghost .` or it is available from the [Docker index as btobolaski/ghost][5].
+
+[5]:https://index.docker.io/u/btobolaski/ghost/
