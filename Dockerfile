@@ -9,7 +9,7 @@ RUN useradd node
 VOLUME ["/ghost"]
 
 RUN mkdir -p /etc/service/ghost
-ADD ruin.sh /etc/service/ghost/run
+ADD ghost.sh /etc/service/ghost/run
 RUN mkdir -p /etc/service/varnish
 ADD varnish.sh /etc/service/varnish/run
 ADD default.vcl /etc/varnish/default.vcl
